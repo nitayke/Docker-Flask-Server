@@ -2,11 +2,11 @@
 
 ## Installation
 
-### Build container and run it:
+### For updating the mapped files into the container:
 
-`sh start.sh`
+`sh restart.sh`
 
-### If container exists:
+### OR (If container stopped):
 
 `docker start flask_container`
 
@@ -14,4 +14,4 @@
 
 ### In the browser (If you need):
 
-`ip:5000/table_name/simulation_id`
+`10.42.149.53:5000/table_name/simulation_id`
